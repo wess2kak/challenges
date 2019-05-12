@@ -15,7 +15,6 @@ def substring_repetitions(input_str):
 
 
 if __name__ == '__main__':
-    test_words = ['abcabcabc', 'aaaaaaa', 'asdfasdf', 'aa', 'aaa', 'qwertyuiopwertyuiop', '123a123a', 'asdf123asdf123', '123a345b']
     test_words = ['asdfasdfa', 'abcabcabc', 'aaaaaaa', 'asdfasdf', 'aa', 'aaa', 'qwertyuiopwertyuiop', '123a123a', 'asdf123asdf123', '123a345b']
     print('Are the following strings made up of repeating segments?')
     for word in test_words:
