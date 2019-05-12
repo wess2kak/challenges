@@ -1,7 +1,5 @@
 def substring_repetitions(input_str):
     substring_end = 1
-    if not len(input_str) % 2 == 0:
-        return False
     while substring_end <= len(input_str) * 0.5:
         substring = input_str[0:substring_end]
         matches = 0
