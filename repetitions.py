@@ -1,5 +1,8 @@
 def substring_repetitions(input_str):
-    """roughly equivalent to the builtin return (str+str)[1:-1].find(str) != -1"""
+    """
+    roughly equivalent to the builtin find method used in the following way:
+    return (str+str)[1:-1].find(str) != -1
+    """
     substring_end = 1
     while substring_end <= len(input_str) * 0.5:
         substring = input_str[0:substring_end]
