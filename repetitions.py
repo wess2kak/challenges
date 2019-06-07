@@ -12,8 +12,8 @@ def substring_repetitions(input_str):
             matches += 1 if segment == substring else 0
         if matches > 1 and matches == int(len(input_str) / len(substring)):
             last_letter_checked = segment[-1]
-        if matches > 1 and matches == int(len(input_str) / len(substring)) and last_letter_checked == input_str[-1]:
-            return True
+            if last_letter_checked == input_str[-1]:
+                return True
         substring_end += 1
     return False
 
